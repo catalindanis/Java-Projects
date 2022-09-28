@@ -313,7 +313,7 @@ class Test{
             result += " ";
             result += stack.pop();
         }
-        //System.out.println(result);
+        System.out.println(result);
         return result;
     }
 }

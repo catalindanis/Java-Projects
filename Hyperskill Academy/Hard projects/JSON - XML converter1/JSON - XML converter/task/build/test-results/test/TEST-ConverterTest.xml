@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ConverterTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-08-07T21:01:07" hostname="CATALIN" time="0.132">
+  <properties/>
+  <testcase name="start" classname="ConverterTest" time="0.132">
+    <failure message="java.lang.AssertionError: Unexpected error in test #2&#10;&#10;We have recorded this bug and will fix it soon.&#10;&#10;Submitted via IDE&#10;&#10;OS Windows 11&#10;Java 17.0.3&#10;Vendor Eclipse Adoptium&#10;Testing library version 8.2&#10;&#10;org.hyperskill.hstest.exception.outcomes.UnexpectedError: An exception happened while running the method &quot;ConverterTest.simpleTest&quot;.&#13;&#10;&#9;at org.hyperskill.hstest.common.ReflectionUtils.invokeMethod(ReflectionUtils.java:93)&#13;&#10;&#9;at org.hyperskill.hstest.dynamic.input.DynamicTesting.lambda$null$1(DynamicTesting.java:284)&#13;&#10;&#9;at org.hyperskill.hstest.dynamic.input.DynamicTesting$1DynamicTestElement.lambda$null$1(DynamicTesting.java:254)&#13;&#10;&#9;at org.hyperskill.hstest.testing.runner.AsyncMainMethodRunner.lambda$runMain$0(AsyncMainMethodRunner.java:33)&#13;&#10;&#9;at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)&#13;&#10;&#9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#13;&#10;&#9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#13;&#10;&#9;at java.base/java.lang.Thread.run(Thread.java:833)&#13;&#10;Caused by: java.nio.file.FileSystemException: test.txt: The process cannot access the file because it is being used by another process&#13;&#10;&#9;at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)&#13;&#10;&#9;at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)&#13;&#10;&#9;at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)&#13;&#10;&#9;at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:171)&#13;&#10;&#9;at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:284)&#13;&#10;&#9;at java.base/java.nio.file.Files.copy(Files.java:1305)&#13;&#10;&#9;at ConverterTest.simpleTest(ConverterTest.java:27)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;&#10;&#9;at org.hyperskill.hstest.common.ReflectionUtils.invokeMethod(ReflectionUtils.java:87)&#13;&#10;&#9;... 7 more&#13;&#10;&#10;java.nio.file.FileSystemException: test.txt: The process cannot access the file because it is being used by another process&#13;&#10;&#9;at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)&#13;&#10;&#9;at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)&#13;&#10;&#9;at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)&#13;&#10;&#9;at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:171)&#13;&#10;&#9;at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:284)&#13;&#10;&#9;at java.base/java.nio.file.Files.copy(Files.java:1305)&#13;&#10;&#9;at ConverterTest.simpleTest(ConverterTest.java:27)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;&#10;&#9;at org.hyperskill.hstest.common.ReflectionUtils.invokeMethod(ReflectionUtils.java:87)&#13;&#10;&#9;at org.hyperskill.hstest.dynamic.input.DynamicTesting.lambda$null$1(DynamicTesting.java:284)&#13;&#10;&#9;at org.hyperskill.hstest.dynamic.input.DynamicTesting$1DynamicTestElement.lambda$null$1(DynamicTesting.java:254)&#13;&#10;&#9;at org.hyperskill.hstest.testing.runner.AsyncMainMethodRunner.lambda$runMain$0(AsyncMainMethodRunner.java:33)&#13;&#10;&#9;at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)&#13;&#10;&#9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#13;&#10;&#9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#13;&#10;&#9;at java.base/java.lang.Thread.run(Thread.java:833)" type="java.lang.AssertionError">java.lang.AssertionError: Unexpected error in test #2
+
+We have recorded this bug and will fix it soon.
+
+Submitted via IDE
+
+OS Windows 11
+Java 17.0.3
+Vendor Eclipse Adoptium
+Testing library version 8.2
+
+org.hyperskill.hstest.exception.outcomes.UnexpectedError: An exception happened while running the method &quot;ConverterTest.simpleTest&quot;.
+	at org.hyperskill.hstest.common.ReflectionUtils.invokeMethod(ReflectionUtils.java:93)
+	at org.hyperskill.hstest.dynamic.input.DynamicTesting.lambda$null$1(DynamicTesting.java:284)
+	at org.hyperskill.hstest.dynamic.input.DynamicTesting$1DynamicTestElement.lambda$null$1(DynamicTesting.java:254)
+	at org.hyperskill.hstest.testing.runner.AsyncMainMethodRunner.lambda$runMain$0(AsyncMainMethodRunner.java:33)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.file.FileSystemException: test.txt: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:171)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:284)
+	at java.base/java.nio.file.Files.copy(Files.java:1305)
+	at ConverterTest.simpleTest(ConverterTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.common.ReflectionUtils.invokeMethod(ReflectionUtils.java:87)
+	... 7 more
+
+java.nio.file.FileSystemException: test.txt: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:171)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:284)
+	at java.base/java.nio.file.Files.copy(Files.java:1305)
+	at ConverterTest.simpleTest(ConverterTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.common.ReflectionUtils.invokeMethod(ReflectionUtils.java:87)
+	at org.hyperskill.hstest.dynamic.input.DynamicTesting.lambda$null$1(DynamicTesting.java:284)
+	at org.hyperskill.hstest.dynamic.input.DynamicTesting$1DynamicTestElement.lambda$null$1(DynamicTesting.java:254)
+	at org.hyperskill.hstest.testing.runner.AsyncMainMethodRunner.lambda$runMain$0(AsyncMainMethodRunner.java:33)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:155)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Element:
+path = transaction
+
+Element:
+path = transaction, id
+value = "6753322"
+
+Element:
+path = transaction, number
+value = "8-900-000-00-00"
+attributes:
+region = "Russia"
+
+Element:
+path = transaction, nonattr
+value = "null"
+
+Element:
+path = transaction, nonattr
+value = ""
+
+Element:
+path = transaction, nonattr
+value = "text"
+
+Element:
+path = transaction, attr
+value = "null"
+attributes:
+id = "1"
+
+Element:
+path = transaction, attr
+value = ""
+attributes:
+id = "2"
+
+Element:
+path = transaction, attr
+value = "text"
+attributes:
+id = "3"
+
+Element:
+path = transaction, email
+
+Element:
+path = transaction, email, to
+value = "to_example@gmail.com"
+
+Element:
+path = transaction, email, from
+value = "from_example@gmail.com"
+
+Element:
+path = transaction, email, subject
+value = "Project discussion"
+
+Element:
+path = transaction, email, body
+value = "Body message"
+attributes:
+font = "Verdana"
+
+Element:
+path = transaction, email, date
+value = "null"
+attributes:
+day = "12"
+month = "12"
+year = "2018"
+
+
+?[1;31m
+Start test 2?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
