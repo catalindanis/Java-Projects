@@ -892,5 +892,5 @@ feedback:
     Hibernate: select code0_.id as id1_0_0_, code0_.code as code2_0_0_, code0_.date as date3_0_0_, code0_.time as time4_0_0_, code0_.time_restriction as time_res5_0_0_, code0_.views as views6_0_0_, code0_.views_restriction as views_re7_0_0_ from code code0_ where code0_.id=?
     Hibernate: insert into code (code, date, time, time_restriction, views, views_restriction, id) values (?, ?, ?, ?, ?, ?, ?)
     Hibernate: select code0_.id as id1_0_0_, code0_.code as code2_0_0_, code0_.date as date3_0_0_, code0_.time as time4_0_0_, code0_.time_restriction as time_res5_0_0_, code0_.views as views6_0_0_, code0_.views_restriction as views_re7_0_0_ from code code0_ where code0_.id=?
-  time: Thu, 08 Sep 2022 20:02:58 UTC
+  time: "Thu, 08 Sep 2022 20:02:58 UTC"
 record: 5
